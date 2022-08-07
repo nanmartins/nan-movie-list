@@ -4,18 +4,6 @@ body {
   padding: 0;
   background-color: black;
 }
-h1 {
-  padding: 60px;
-  color: #fff;
-  text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #fff,
-    0 0 42px #0fa,
-    0 0 82px #0fa,
-    // 0 0 92px #0fa,
-    // 0 0 102px #0fa,
-}
 
 .banner-img {
   background-image: url(https://images.unsplash.com/photo-1518043129420-ed9d4efcdcc9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1175&q=80);
@@ -25,3 +13,34 @@ h1 {
   height: 100vh;
 
 }
+
+.main-banner {
+  background-image: asset-url('cinema01.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: auto;
+}
+
+.main-banner-text {
+  display: flex;
+  color: white;
+  font-size: 32px;
+  justify-content: center;
+  align-self: center;
+}
+
+
+// h1 {
+//   padding: 60px;
+//   color: #fff;
+//   text-shadow:
+//     0 0 7px #fff,
+//     0 0 10px #fff,
+//     0 0 21px #fff,
+//     0 0 42px #0fa,
+//     0 0 82px #0fa,
+//     // 0 0 92px #0fa,
+//     // 0 0 102px #0fa,
+// }
