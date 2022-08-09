@@ -3,32 +3,27 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-}
-
-.banner-img {
-  background-image: url(https://images.unsplash.com/photo-1518043129420-ed9d4efcdcc9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1175&q=80);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
 
 }
+
 
 .main-banner {
   background-image: asset-url('cinema01.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 600px;
-  width: auto;
+  height: 800px;
+  max-width: 100%;
+  display: block;
+
 }
 
 .main-banner-text {
-  display: flex;
+  padding: 0;
+  margin: 0;
   color: white;
   font-size: 32px;
-  justify-content: center;
-  align-self: center;
+
 }
 
 
