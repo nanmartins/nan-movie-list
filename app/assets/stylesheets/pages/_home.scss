@@ -2,29 +2,15 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #fff;
 
 }
 
-
-.main-banner {
-  background-image: asset-url('cinema01.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 800px;
-  max-width: 100%;
-  display: block;
-
+.card-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.main-banner-text {
-  padding: 0;
-  margin: 0;
-  color: white;
-  font-size: 32px;
-
-}
 
 
 // h1 {
