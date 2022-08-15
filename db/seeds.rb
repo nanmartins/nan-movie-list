@@ -6,7 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
 require 'open-uri'
 Bookmark.destroy_all
 List.destroy_all
@@ -29,7 +28,6 @@ response['results'].each do |movie_hash|
     poster_url: movie_hash['poster_path'],
     rating: movie_hash['vote_average']
   )
-
 end
 
 puts 'New database created!'

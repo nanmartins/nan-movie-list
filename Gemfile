@@ -30,6 +30,7 @@ gem 'jbuilder', '~> 2.7'
 # MY GEMS ##########################################
 
 gem "simple_form", github: "heartcombo/simple_form"
+gem "dotenv-rails", groups: [:development, :test]
 
 
 
