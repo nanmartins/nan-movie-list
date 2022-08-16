@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  root to: "pages#home"
-
-  resources :lists, only: [ :index, :show, :new, :create, :destroy ] do
+  root to: 'lists#index'
+  get "bookmarks/id", to: "bookmarks#destroy"
+  resources :lists, only: [:index, :show, :new, :create, :destroy] do
     resources :bookmarks, only: [:new, :create, :destroy]
     resources :reviews, only: :create
   end
