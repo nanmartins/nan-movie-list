@@ -3,8 +3,8 @@
 <h3 class="mb-0">My Lists</h3>
 <%# <%= cl_image_tag("san_francisco.jpg",
       width: 400, height: 300, crop: :fill) %>
-      <%= cl_image_tag("san_francisco.jpg") %>
-
+      <%= cl_image_tag("san_francisco") %>
+      
 
   <div class="row">
     <% @lists.each do |list| %>
@@ -14,7 +14,7 @@
             <%= list.name %>
           </div>
 
-          <%= image_tag cl_image_path(list.photo.key) %>
+          <%= cl_image_path(list.photo.key) %>
           <%# <%= list.photo.attached? ? cl_image_path(list.photo.key) : image_path("cinema01.jpg") %> %>
 
 
