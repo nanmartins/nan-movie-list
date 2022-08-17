@@ -12,7 +12,7 @@ gem "cloudinary"
 gem 'mini_magick', '~> 4.5', '>= 4.5.1'
 
 gem 'autoprefixer-rails', '~> 7.1', '>= 7.1.6'
-gem 'font-awesome-sass', '~> 4.6', '>= 4.6.2'
+gem "font-awesome-sass", "~> 6.1.2"
 gem 'stimulus-rails'
 
 
