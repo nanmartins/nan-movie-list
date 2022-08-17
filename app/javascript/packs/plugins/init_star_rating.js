@@ -1,11 +1,11 @@
-import $ from 'jquery';
+// import $ from 'jquery';
 
-import 'jquery-bar-rating';
+// import 'jquery-bar-rating';
 
-const initStarRating = () => {
-  $('#review_rating').barrating({
-      theme: 'css-stars'
-    });
-};
+// const initStarRating = () => {
+//   $('#review_rating').barrating({
+//       theme: 'css-stars'
+//     });
+// };
 
-export { initStarRating };
+// export { initStarRating };
