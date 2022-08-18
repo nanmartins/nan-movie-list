@@ -1,17 +1,38 @@
-.navbar-lewagon {
+.navbar-movie-list {
   justify-content: space-between;
-  background: white;
+  background: #fff;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-movie-list .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar-movie-list .navbar-brand img {
   width: 40px;
 }
 
 .logo {
   width: 40px;
-  filter: invert(2%) sepia(2%) saturate(2949%) hue-rotate(251deg) brightness(15%) contrast(98%);
+  filter: invert(2%) sepia(2%) saturate(2949%) hue-rotate(251deg) brightness(30%) contrast(98%);
+}
+.logo:hover {
+  filter: invert(2%) sepia(2%) saturate(2949%) hue-rotate(251deg) brightness(60%) contrast(98%);
+  transition: 0.5s;
+}
+
+
+.nav-item .active {
+  color: rgb(55, 54, 54);
+}
+
+.nav-link .active {
+  color: white;
+  border: 1px solid rgb(55, 54, 54);
+  margin-left: 5px;
+  border-radius: 3px;
+}
+
+.nav-link:hover {
+  transition: 0.5s;
+  background-color: rgb(192, 192, 192);
 }
