@@ -1,4 +1,4 @@
-<div class="navbar navbar-expand-sm navbar-light navbar-lewagon px-3">
+<div class="navbar navbar-expand-sm navbar-light navbar-movie-list px-3">
   <%= link_to root_path do %>
     <%= image_tag "popcorn.png", alt: "logo", class: "logo" %>
   <% end %>
@@ -9,10 +9,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav me-auto">
       <li class="nav-item active">
-        <%= link_to "My lists", lists_path, class: "nav-link" %>
+        <%= link_to "My lists", lists_path, class: "nav-link", style: "color: rgb(55, 54, 54);" %>
       </li>
       <li class="nav-item active">
-        <%= link_to "New list", new_list_path, class: "nav-link" %>
+        <%= link_to "New list", new_list_path, class: "nav-link", style: "color: rgb(55, 54, 54);" %>
       </li>
     </ul>
   </div>
