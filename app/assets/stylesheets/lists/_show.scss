@@ -2,3 +2,25 @@
   font-family: 'Teko', sans-serif;
   font-size: 54px;
 }
+
+.showlist-addmovie-btn {
+  margin-right: 5px;
+}
+
+.showlist-btn {
+  font-family: 'Teko', sans-serif;
+  font-size: 22px;
+  padding: 5px 20px;
+}
+
+
+
+
+
+//////////////// media ////////////////////
+
+@media only screen and (max-width: 365px) {
+  .showlist-buttons-line {
+    display: block !important;
+  }
+}

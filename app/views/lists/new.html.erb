@@ -3,9 +3,9 @@
   <%= simple_form_for(@list) do |f| %>
     <%= f.input :name %>
     <%= f.input :photo, as: :file %>
-    <div class='d-flex justify-content-between pt-4'>
+    <div class='d-flex justify-content-between pt-4 listnew-buttons-line'>
       <p class='m-0'><%= link_to "Back to lists", lists_path, class: "btn btn-flat newlist-buttons back-button" %></p>
-      <p class='m-0'><%= f.submit "Create list", class: "btn btn-flat newlist-buttons" %></p>
+      <p class='m-0'><%= f.submit "Create list", class: "btn btn-flat newlist-buttons newlist-creatlist-btn" %></p>
     </div>
   <% end %>
   <br>
