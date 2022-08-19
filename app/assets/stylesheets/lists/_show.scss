@@ -13,7 +13,88 @@
   padding: 5px 20px;
 }
 
+.listshow-moviecard {
+  border-radius: 8px;
+}
 
+.listshow-moviecard img {
+  border-radius: 5px;
+}
+
+.showlist-moviecount {
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+  padding: 3px 15px;
+}
+
+.showlist-movietitle {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.showlist-movieinfo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.showlist-moviecomments {
+  font-family: 'Teko', sans-serif;
+  font-size: 18px;
+}
+
+
+.showlist-deletemovie-text {
+  font-family: 'Teko', sans-serif;
+  font-size: 16px;
+  padding: 0px 10px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.showlist-reviewtitle {
+  font-family: 'Teko', sans-serif;
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.showlist-reviewtime {
+  font-family: 'Roboto', sans-serif;
+}
+
+.showlist-reviewcontent {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.showlist-addreview-banner {
+  border-radius: 8px;
+}
+
+.showlist-addreview-title {
+  font-family: 'Teko', sans-serif;
+  font-size: 26px;
+}
+
+.form-label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+abbr {
+  display: none;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.showlist-newreview-btn {
+  font-family: 'Teko', sans-serif;
+  background-color: #1EDD88;
+  font-size: 24px;
+  padding: 5px 20px;
+}
 
 
 
