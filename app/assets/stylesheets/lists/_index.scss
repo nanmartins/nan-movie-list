@@ -14,6 +14,11 @@
   font-size: 40px;
 }
 
+.list-name {
+  font-family: 'Teko', sans-serif;
+  font-size: 34px;
+  // font-weight: bold;
+}
 
 .new-list-index {
   font-family: 'Teko', sans-serif;
@@ -25,6 +30,6 @@
 
 @media only screen and (max-width: 575px) {
   .home-title {
-    font-size: 54px;
+    font-size: 44px;
   }
 }
