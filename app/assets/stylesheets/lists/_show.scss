@@ -1,6 +1,8 @@
 .list-name-show {
   font-family: 'Teko', sans-serif;
-  font-size: 54px;
+  font-size: 58px;
+  font-weight: bold;
+  text-shadow: 6px 6px rgb(27, 27, 27);
 }
 
 .showlist-addmovie-btn {
@@ -53,6 +55,7 @@
 }
 
 .showlist-reviewtitle {
+  color: #5D565D;
   font-family: 'Teko', sans-serif;
   font-size: 32px;
   margin-top: 10px;
@@ -72,6 +75,7 @@
 }
 
 .showlist-addreview-title {
+  color: #5D565D;
   font-family: 'Teko', sans-serif;
   font-size: 26px;
 }
@@ -100,6 +104,8 @@ abbr {
   border-style: solid;
   border-width: medium;
 }
+
+
 
 
 

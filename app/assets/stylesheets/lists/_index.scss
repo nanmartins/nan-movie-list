@@ -1,10 +1,11 @@
 .home-title {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 94px;
+  font-family: 'Teko', sans-serif;
+  font-size: 104px;
   font-weight: bold;
-  text-shadow: 4px 4px rgb(27, 27, 27);
+  text-shadow: 6px 6px rgb(27, 27, 27);
   margin-left: 44px;
   margin-bottom: 5px;
+  line-height: 80%;
 }
 
 .list-cards-title {
@@ -16,8 +17,9 @@
 
 .list-name {
   font-family: 'Teko', sans-serif;
-  font-size: 34px;
-  // font-weight: bold;
+  font-size: 38px;
+  font-weight: bold;
+  text-shadow: 4px 4px rgb(27, 27, 27);
 }
 
 .new-list-index {
@@ -43,14 +45,14 @@
 
 @media only screen and (max-width: 575px) {
   .home-title {
-    font-size: 54px;
-    margin-left: 30px;
+    font-size: 64px;
+    margin-left: 20px;
   }
 }
 
 @media only screen and (max-width: 430px) {
   .home-title {
-    font-size: 40px;
-    margin-left: 30px;
+    font-size: 45px;
+    margin-left: 10px;
   }
 }
