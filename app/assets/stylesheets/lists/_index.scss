@@ -33,6 +33,20 @@
   border-radius: 5px;
 }
 
+.listindex-card-animation {
+  border-radius: 8px;
+  padding: 10px;
+  // margin: 5px;
+  animation: leftToRight .7s forwards;
+}
+
+.indexlist-cardsrow-container {
+  margin: 0;
+  padding: 0;
+}
+
+
+
 
 //////////////// media /////////////////////
 
@@ -49,6 +63,16 @@
     margin-left: 20px;
     text-shadow: 4px 4px rgb(27, 27, 27);
   }
+  .listindex-card-animation {
+    border-radius: 8px;
+    padding: 5px !important;
+    animation: leftToRight .7s forwards;
+    margin-top: 5px;
+  }
+  .indexlist-listcard {
+    border-radius: 5px;
+    margin-bottom: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 430px) {
@@ -56,5 +80,19 @@
     font-size: 54px;
     margin-left: 12px;
     text-shadow: 4px 4px rgb(27, 27, 27);
+  }
+}
+
+
+
+
+@keyframes leftToRight{
+  from {
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
