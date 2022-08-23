@@ -7,7 +7,7 @@ const initSortable = () => {
   Sortable.create(list, {
   ghostClass: "ghost",
   animation: 150,
-  delay: 120,
+  delay: 100,
 });
 };
 
