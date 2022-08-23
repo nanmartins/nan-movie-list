@@ -16,7 +16,12 @@ require("channels")
 import "bootstrap";
 
 // Components import
-// import {  } from "module";
+import { initSortable } from '../plugins/initSortable';
+
+document.addEventListener('turbolinks:load', () => {
+  initSortable();
+});
+
 // Stimulus import
 // import { Application } from "stimulus"
 // import { definitionsFromContext } from "stimulus/webpack-helpers"
