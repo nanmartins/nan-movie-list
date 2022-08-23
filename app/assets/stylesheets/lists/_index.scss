@@ -36,7 +36,7 @@
 .listindex-card-animation {
   border-radius: 8px;
   padding: 10px;
-  // margin: 5px;
+  box-shadow: $gray;
   animation: leftToRight .7s forwards;
 }
 
