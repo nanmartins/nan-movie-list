@@ -10,6 +10,7 @@
     "@rails/webpacker": "5.4.3",
     "bootstrap": "^5.2.0",
     "jquery-bar-rating": "^1.2.2",
+    "sortablejs": "^1.15.0",
     "star-rating.js": "^4.3.0",
     "stimulus-select2": "^0.0.4",
     "turbolinks": "^5.2.0",
