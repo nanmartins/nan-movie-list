@@ -37,7 +37,6 @@
   border-radius: 8px;
   padding: 10px;
   box-shadow: $gray;
-  animation: leftToRight .7s forwards;
 }
 
 .indexlist-cardsrow-container {
@@ -45,10 +44,11 @@
   padding: 0;
 }
 
+.row {
+  animation: leftToRight .7s forwards;
+}
 
-
-
-//////////////// media /////////////////////
+// media
 
 @media only screen and (max-width: 800px) {
   .home-title {
@@ -83,13 +83,12 @@
   }
 }
 
-
-
+// animation
 
 @keyframes leftToRight{
   from {
     opacity: 0;
-    transform: translate3d(-50px, 0, 0);
+    transform: translate3d(-60px, 0, -80px);
   }
   to {
     opacity: 1;
