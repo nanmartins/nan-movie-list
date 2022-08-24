@@ -1,8 +1,12 @@
-.list-name-show {
+.showlist-nameshow {
   font-family: 'Teko', sans-serif;
   font-size: 58px;
   font-weight: bold;
   text-shadow: 6px 6px rgb(27, 27, 27);
+}
+
+.showlist-listcard-banner {
+  height: 500px !important;
 }
 
 .showlist-addmovie-btn {
@@ -19,12 +23,12 @@
   background-color: rgb(250, 74, 74);
 }
 
-.listshow-moviecard {
+.showlist-moviecard {
   border-radius: 8px;
   box-shadow: $gray;
 }
 
-.listshow-moviecard img {
+.showlist-moviecard img {
   border-radius: 5px;
 }
 

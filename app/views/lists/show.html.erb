@@ -1,6 +1,6 @@
 <div class="position-relative">
-  <div class="card-category card-large" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= @list.photo.attached? ? cl_image_path(@list.photo.key, crop: :fill) : image_path("default.jpg", width: 400, height: 300, crop: :fill) %>)">
-    <h2 class="list-name-show"><%= @list.name %></h2>
+  <div class="card-category card-large showlist-listcard-banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= @list.photo.attached? ? cl_image_path(@list.photo.key, crop: :fill) : image_path("default.jpg", width: 400, height: 300, crop: :fill) %>)">
+    <h2 class="showlist-nameshow"><%= @list.name %></h2>
   </div>
     <span class="movie-tag showlist-moviecount"><%= pluralize(@list.movies.size, 'movie') %></span>
 </div>
@@ -18,11 +18,11 @@
   </div>
 
 
-  <div class="row my-2">
+  <div class="row js-smoothScroll my-2">
     <% @list.movies.each do |movie| %>
       <% bookmark = Bookmark.find_by(list: @list, movie: movie) %>
       <div class="col-12 col-sm-6 mb-4" data-aos="zoom-in">
-        <div class="bg-white shadow h-100 listshow-moviecard">
+        <div class="bg-white shadow h-100 showlist-moviecard">
           <% url = "https://image.tmdb.org/t/p/w500#{bookmark.movie.poster_url}" %>
 
           <div class="p-3 rounded-bottom d-flex flex-column">
