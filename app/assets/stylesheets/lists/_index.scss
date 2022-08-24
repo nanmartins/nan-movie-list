@@ -44,17 +44,8 @@
   padding: 0;
 }
 
-// .row {
-//   animation: leftToRight .7s forwards;
-// }
-.js-smoothScroll {
-  opacity: 0;
-  // animation: leftToRight .8s forwards;
-}
-
-.js-smoothScroll.js-smoothScroll-active {
-  opacity: 1;
-  animation: leftToRight .8s forwards;
+.row {
+  animation: leftToRight .7s forwards;
 }
 
 // media

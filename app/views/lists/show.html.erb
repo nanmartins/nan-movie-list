@@ -18,7 +18,7 @@
   </div>
 
 
-  <div class="row js-smoothScroll my-2">
+  <div class="row my-2">
     <% @list.movies.each do |movie| %>
       <% bookmark = Bookmark.find_by(list: @list, movie: movie) %>
       <div class="col-12 col-sm-6 mb-4" data-aos="zoom-in">
