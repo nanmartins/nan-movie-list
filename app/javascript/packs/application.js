@@ -17,7 +17,7 @@ import "bootstrap";
 
 // Components import
 import { initSortable } from '../plugins/initSortable';
-import { smoothScroll } from "../plugins/smoothScroll";
+import { initSmoothScroll } from "../plugins/initSmoothScroll";
 
 document.addEventListener('turbolinks:load', () => {
   initSortable();
