@@ -8,10 +8,6 @@ require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
 
-// Rails.start()
-// Turbolinks.start()
-// ActiveStorage.start()
-
 // Bootstrap import
 import "bootstrap";
 
@@ -22,13 +18,3 @@ import { initSmoothScroll } from "../plugins/initSmoothScroll";
 document.addEventListener('turbolinks:load', () => {
   initSortable();
 });
-
-// Stimulus import
-// import { Application } from "stimulus"
-// import { definitionsFromContext } from "stimulus/webpack-helpers"
-
-
-// Stimulus
-// const application = Application.start()
-// const context = require.context("controllers", true, /_controller\.js$/)
-// application.load(definitionsFromContext(context))
