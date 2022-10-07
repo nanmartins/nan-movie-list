@@ -1,3 +1,16 @@
+
+//dark-mode
+
+.dark-mode {
+  //need to create a js class at the elements for change the color with click in a button
+  //with that class create a event for add or remove the class dark mode.
+  //create a bootstrap variable for the dark color at _colors.scss
+}
+
+body {
+  background-color: $main-dark;
+}
+
 .home-title {
   font-family: 'Teko', sans-serif;
   font-size: 104px;
