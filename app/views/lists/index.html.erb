@@ -9,7 +9,7 @@
 <div class="container py-3">
   <div class="d-flex align-items-center justify-content-between mb-3">
     <h3 class="mb-0 list-cards-title">My Lists</h3>
-    <%= link_to "Create a movie list", new_list_path, class: "btn btn-flat new-list-index" %>
+    <%= link_to "Create movie list", new_list_path, class: "btn btn-flat new-list-index" %>
   </div>
   <div class="row indexlist-cardsrow-container">
     <% @lists.each do |list| %>
