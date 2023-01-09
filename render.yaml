@@ -7,7 +7,7 @@ services:
     name: movie-list
     env: ruby
     buildCommand: "./bin/render-build.sh"
-    startCommand: "bundle exec puma -C config/puma.rb"
+    startCommand: bundle exec rails s
     envVars:
       - key: DATABASE_URL
         fromDatabase:
@@ -21,10 +21,3 @@ services:
         ipAllowList: []
         plan: free
         maxmemoryPolicy: noeviction
-
-
-
-
-        # db internal connection = postgres://nanmartinis:5ImUmRMYclu1Xuv1r3d7CqFH4hXkL2eo@dpg-ceu1cf9a6gdut0r1mldg-a/moviedb
-
-        # internal db url = postgres://nanmartinis:5ImUmRMYclu1Xuv1r3d7CqFH4hXkL2eo@dpg-ceu1cf9a6gdut0r1mldg-a/moviedb
