@@ -81,7 +81,7 @@ test:
 #
 production:
   <<: *default
-   url: <%= ENV['DATABASE_URL'] %>
+  url: <%= ENV['DATABASE_URL'] %>
   database: nan_movie_list_production
   username: nan_movie_list
   password: <%= ENV['NAN_MOVIE_LIST_DATABASE_PASSWORD'] %>

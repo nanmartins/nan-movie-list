@@ -1,0 +1,24 @@
+databases:
+  - name: postgres
+    ipAllowList: []
+
+services:
+  - type: web
+    name: mysite
+    env: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: mysite
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
+
+
+
+
+        # db internal connection = postgres://nanmartinis:5ImUmRMYclu1Xuv1r3d7CqFH4hXkL2eo@dpg-ceu1cf9a6gdut0r1mldg-a/moviedb
+
+        # internal db url = postgres://nanmartinis:5ImUmRMYclu1Xuv1r3d7CqFH4hXkL2eo@dpg-ceu1cf9a6gdut0r1mldg-a/moviedb
