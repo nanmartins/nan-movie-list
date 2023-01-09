@@ -13,7 +13,7 @@ services:
         fromDatabase:
           name: postgres
           property: connectionString
-      - key: aa9ec8c6a0aff28b5358dbb94601b61e
+      - key: RAILS_MASTER_KEY
         sync: false
 
       - type: redis
