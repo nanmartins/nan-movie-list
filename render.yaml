@@ -27,7 +27,7 @@
 databases:
   - name: postgres
     databaseName: postgres
-    user: postgres
+    user: nan_movie_list_test
 
 services:
   - type: web
