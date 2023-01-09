@@ -26,8 +26,8 @@
 
 databases:
   - name: postgres
-    databaseName: movieDB
-    user: nanmartins
+    databaseName: postgres
+    user: postgres
 
 services:
   - type: web
