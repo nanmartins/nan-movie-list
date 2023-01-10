@@ -1,4 +1,4 @@
-process.env.NODE_ENV = process.env.NODE_ENV || 'environment'
+// process.env.NODE_ENV = process.env.NODE_ENV || 'environment'
 
 const { environment } = require('@rails/webpacker')
 
