@@ -83,7 +83,7 @@ DATABASE_URL=$SCALINGO_POSTGRESQL_URL
 #
 production:
   <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
-  database: nan_movie_list_production
-  username: nan_movie_list
-  password: <%= ENV['NAN_MOVIE_LIST_DATABASE_PASSWORD'] %>
+  url: DATABASE_URL
+  database: movie-list
+  username: DATABASE_MOVIE_USERNAME
+  password: DATABASE_MOVIE_PASSWORD
