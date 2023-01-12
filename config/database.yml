@@ -67,6 +67,7 @@ test:
 # variable when you boot the app. For example:
 #
 #   DATABASE_URL="postgres://myuser:mypass@localhost/somedatabase"
+    DATABASE_URL="postgres://movie_list_2331:Rt70FQTNSeOSU44Ql7-3@movie-list-2331.postgresql.a.osc-fr1.scalingo-dbs.com:30265/movie_list_2331?sslmode=prefer"
 #
 # If the connection URL is provided in the special DATABASE_URL environment
 # variable, Rails will automatically merge its configuration values on top of
