@@ -67,8 +67,6 @@ test:
 # variable when you boot the app. For example:
 #
 #   DATABASE_URL="postgres://myuser:mypass@localhost/somedatabase"
-    DATABASE_URL=$SCALINGO_POSTGRESQL_URL
-
 #
 # If the connection URL is provided in the special DATABASE_URL environment
 # variable, Rails will automatically merge its configuration values on top of
@@ -83,7 +81,7 @@ test:
 #
 production:
   <<: *default
-  url: $SCALINGO_POSTGRESQL_URL
-  database: movie-list
-  username: DATABASE_MOVIE_USERNAME
-  password: DATABASE_MOVIE_PASSWORD
+  url: <%= ENV['DATABASE_URL'] %>
+  database: nan_movie_list_production
+  username: nan_movie_list
+  password: <%= ENV['NAN_MOVIE_LIST_DATABASE_PASSWORD'] %>
