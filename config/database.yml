@@ -83,7 +83,7 @@ test:
 #
 production:
   <<: *default
-  url: DATABASE_URL
+  url: $SCALINGO_POSTGRESQL_URL
   database: movie-list
   username: DATABASE_MOVIE_USERNAME
   password: DATABASE_MOVIE_PASSWORD
